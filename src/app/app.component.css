@@ -1,0 +1,22 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+ul li {
+  flex: 1;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: solid 2px transparent;
+  padding: 5px;
+}
+
+ul li:hover {
+  border-bottom: solid 2px navy;
+}
+
+ul li.active {
+  border-bottom: solid 2px navy;
+  background-color: #e5e5e5;
+}
